@@ -4,7 +4,7 @@ import { InitializeLotDto } from './dto/initialize-lot.dto';
 import { ExpandLotDto } from './dto/expand-lot.dto';
 import { ParkCarDto } from './dto/park-car.dto';
 
-@Controller()
+@Controller('parking')
 export class ParkingController {
   constructor(private readonly parkingService: ParkingService) {}
 
